@@ -1,0 +1,28 @@
+{
+  "name": "code-editor",
+  "version": "1.0.0",
+  "description": "A collaborative code editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirePhoenix555/code-editor.git"
+  },
+  "keywords": [
+    "code",
+    "editor"
+  ],
+  "author": "Fire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FirePhoenix555/code-editor/issues"
+  },
+  "homepage": "https://github.com/FirePhoenix555/code-editor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
